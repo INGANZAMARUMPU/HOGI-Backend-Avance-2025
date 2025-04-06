@@ -67,10 +67,12 @@ Phase 2 : Maîtriser Django Rest Framework
 Jour 8. Django
 --------------
 - Les models et les requetes
+- Django Admin
 
 Jour 9. Django
 --------------
-- Django Admin
+- Django Admin en profondeur
+    filtres, actions, import-export, save_model, save_queryset, has_add_permission, list_prefetch_related, autocomplete_fields...
 
 Jour 10. Django Rest Framework (DRF)
 ------------------------------------
