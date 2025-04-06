@@ -45,15 +45,22 @@ Jour 5. La Performance
     - https://youtu.be/pVGujarYk9w
     - https://youtu.be/RtnzfYezHjo
 
-Jour 6. Programmation Fonctionnelle
------------------------------------
-- Les closures.
-- Les décorateurs.
-
-Jour 7. Programmation Orientée Objet
+Jour 6. Programmation Orientée Objet
 ------------------------------------
 - `héritage multiple`, `encapsulation`, `polymorphisme`.
+    - https://youtu.be/_8MS8jq23-g
+    - https://youtu.be/29bZIPc94VU
+    - https://youtu.be/DJEP8JTAb2U
 - Attributs et méthodes statiques
+    - https://youtu.be/45R-gynfbnw
+
+Jour 7. Programmation Fonctionnelle
+-----------------------------------
+- Les closures.
+    - https://youtu.be/oE0wFA13c2o
+- Les décorateurs.
+    - https://youtu.be/hcBhtCo07EQ
+
 
 Phase 2 : Maîtriser Django Rest Framework
 =========================================
@@ -88,6 +95,7 @@ Jour 12. La Securité
 Jour 13. Les tests
 ------------------
 - Les tests avec pytest
+    - https://youtube.com/playlist?list=PLP1DxoSC17LZTTzgfq0Dimkm6eWJQC9ki
 
 Phase 3 : La Performance
 ========================
