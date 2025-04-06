@@ -71,7 +71,7 @@ Jour 8. Django
 
 Jour 9. Django
 --------------
-- Django Admin en profondeur
+- Django Admin en profondeur:
     filtres, actions, import-export, save_model, save_queryset, has_add_permission, list_prefetch_related, autocomplete_fields...
 
 Jour 10. Django Rest Framework (DRF)
@@ -119,7 +119,11 @@ Jour 17. Les taches (Django Celery)
     - https://youtu.be/watch?v=y6FG-kKhGwA
 - planification des tâches
 
-Jour 18. Django channels
+Jour 18. SaaS
+-------------
+- [OPTIONNEL] Multitenancy avec django-tenants
+
+Jour 19. Django channels
 ------------------------
 - [OPTIONNEL] Gestion des notifications et WebSockets
 
