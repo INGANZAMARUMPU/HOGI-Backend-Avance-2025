@@ -67,12 +67,10 @@ Phase 2 : Maîtriser Django Rest Framework
 Jour 8. Django
 --------------
 - Les models et les requetes
-- Django Admin
 
-Jour 9. Serialization
----------------------
-- to_representation et les methods fields
-- Les relations complexes : `OneToMany`, `ManyToMany`.
+Jour 9. Django
+--------------
+- Django Admin
 
 Jour 10. Django Rest Framework (DRF)
 ------------------------------------
@@ -81,40 +79,45 @@ Jour 10. Django Rest Framework (DRF)
 - Les Filtres
 - Les actions
 
-Jour 11. Permissions
+Jour 11. Serialization
+---------------------
+- to_representation et les methods fields
+- Les relations complexes : `OneToMany`, `ManyToMany`.
+
+Jour 12. Permissions
 --------------------
 - Validation avancée des données : regex, dates avec des formats dynamiques.
 - JWT Authentication
 - Gestion des permissions basée sur des rôles `(RBAC)`
 
-Jour 12. La Securité
+Jour 13. La Securité
 --------------------
 - Protection contre les attaques : `CSRF`, `XSS` et `SQL injection`, `brute-force`, `Honeypot`
 - Limitation des Requêtes
 
-Jour 13. Les tests
+Jour 14. Les tests
 ------------------
 - Les tests avec pytest
     - https://youtube.com/playlist?list=PLP1DxoSC17LZTTzgfq0Dimkm6eWJQC9ki
 
 Phase 3 : La Performance
 ========================
-Jour 14. Test et Performance de l'API
+Jour 15. Test et Performance de l'API
 -------------------------------------
 - Profilage et benchmarking
     - https://youtu.be/BZzb_Wpag_M
 
-Jour 15. Caching
+Jour 16. Caching
 ----------------
 - Cache et optimisation des endpoints
 
-Jour 16. Les taches (Django Celery)
+Jour 17. Les taches (Django Celery)
 ------------------------------------
 - Mise en file d'attente des tâches
     - https://youtu.be/watch?v=y6FG-kKhGwA
 - planification des tâches
 
-Jour 17. Django channels
+Jour 18. Django channels
 ------------------------
 - [OPTIONNEL] Gestion des notifications et WebSockets
 
