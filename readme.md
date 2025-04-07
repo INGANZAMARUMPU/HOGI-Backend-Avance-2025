@@ -85,6 +85,7 @@ Jour 11. Serialization
 ---------------------
 - to_representation et les methods fields
 - Les relations complexes : `OneToMany`, `ManyToMany`.
+- [OPTIONNEL] GraphQL
 
 Jour 12. Permissions
 --------------------
@@ -95,7 +96,7 @@ Jour 12. Permissions
 Jour 13. La Securité
 --------------------
 - Protection contre les attaques : `CSRF`, `XSS` et `SQL injection`, `brute-force`, `Honeypot`
-- Limitation des Requêtes
+- Limitation des Requêtes: throttling
 
 Jour 14. Les tests
 ------------------
@@ -104,8 +105,8 @@ Jour 14. Les tests
 
 Phase 3 : La Performance
 ========================
-Jour 15. Test et Performance de l'API
--------------------------------------
+Jour 15. Performance de l'API
+-----------------------------
 - Profilage et benchmarking
     - https://youtu.be/BZzb_Wpag_M
 
@@ -113,15 +114,18 @@ Jour 16. Caching
 ----------------
 - Cache et optimisation des endpoints
 
-Jour 17. Les taches (Django Celery)
-------------------------------------
-- Mise en file d'attente des tâches
-    - https://youtu.be/watch?v=y6FG-kKhGwA
-- planification des tâches
+Jour 17. Les taches
+-------------------
+- Mise en file d'attente des tâches avec Celery
+    - https://youtu.be/y6FG-kKhGwA
+- planification des tâches avec Celery
+- [OPTIONNEL] Gestionnaire de taches personnalisé:
+    - https://youtu.be/FCPBG6NqMmQ
 
 Jour 18. SaaS
 -------------
 - [OPTIONNEL] Multitenancy avec django-tenants
+    - https://youtu.be/uvaO85GbdzA
 
 Jour 19. Django channels
 ------------------------
