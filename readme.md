@@ -18,17 +18,19 @@ Jour 2. Manipulation avancée des données
 
 Jour 3. Bon à savoir
 --------------------
-- Manipulation des dates
-    - https://youtu.be/eirjjyP2qcQ
 - Expression regulières
     - https://youtu.be/UQQsYXa1EHs
+- Manipulation des fichiers
+    - https://youtu.be/7U2RUtWz5Mo
 
 Jour 4. Les fichiers
 --------------------
-- Manipulation des fichiers
-    - https://youtu.be/7U2RUtWz5Mo
+- Manipulation des dates
+    - https://youtu.be/eirjjyP2qcQ
 - Le module Path
     - https://youtu.be/zsXTBXoDkEs
+- Manipulation des dates
+    - https://youtu.be/eirjjyP2qcQ
 - [OPTIONNEL] logging
     - https://youtu.be/NRLSyyYv2N0
 
