@@ -16,7 +16,7 @@ Jour 2. Manipulation avancée des données
 - Les chaînes de caractère:
     - https://youtu.be/9saytqA0J9A
 
-Jour 3. Bon à savoir
+Jour 3. Les fichiers
 --------------------
 - Expression regulières
     - https://youtu.be/UQQsYXa1EHs
@@ -29,8 +29,6 @@ Jour 4. Les fichiers
     - https://youtu.be/eirjjyP2qcQ
 - Le module Path
     - https://youtu.be/zsXTBXoDkEs
-- Manipulation des dates
-    - https://youtu.be/eirjjyP2qcQ
 - [OPTIONNEL] logging
     - https://youtu.be/NRLSyyYv2N0
 
