@@ -22,11 +22,13 @@ Jour 2. Manipulation avancée des données
 Exercice:
 1. script iguma ikora table de multiplication ibireka ai uko dushizemwo 0
 2. script icapa carre yanditsemwo nombre de coté hagati
+```
 * * * * *
 *       *
 *   5   *
 *       *
 * * * * *
+```
 
 Jour 3. Les fichiers
 --------------------
@@ -59,7 +61,8 @@ Exercice:
     - fichier ya 20 yandikemwo "OK NAHEJEJE"
 
 2. script ifata fichier igatanga iyindi fihier ahari date hose ikahasubiriza imisi iba isigaye kugira ukwezi guhere
-ex: 
+
+Akarorero: 
 15/04/2019 des flammes stylisées, rouge et or. =>  15e jours avant la fin de 04 2019 des flammes stylisées, rouge et or.
 
 Jour 5. La Performance
