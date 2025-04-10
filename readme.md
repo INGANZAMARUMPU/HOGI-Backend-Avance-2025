@@ -26,7 +26,8 @@ Jour 3. Les fichiers
 Jour 4. Les fichiers
 --------------------
 - Manipulation des dates
-    - https://youtu.be/eirjjyP2qcQ
+    - https://youtu.be/p0Cy0LQ-sLw
+    - https://youtu.be/TZkIud0u2C4
 - Le module Path
     - https://youtu.be/zsXTBXoDkEs
 - [OPTIONNEL] logging
