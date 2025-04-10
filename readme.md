@@ -9,6 +9,9 @@ Jour 1. Programmation Avancée avec Python
 - Les conditions et les Boucles
     - https://youtu.be/t1EZcWaFyeg
 
+Exercice:
+    replace sans replace
+
 Jour 2. Manipulation avancée des données
 ----------------------------------------
 - Les listes et les fonctions y relatives (`sum`, `all`, `any`, `sorted`...)
@@ -16,12 +19,25 @@ Jour 2. Manipulation avancée des données
 - Les chaînes de caractère:
     - https://youtu.be/9saytqA0J9A
 
+Exercice:
+1. script iguma ikora table de multiplication ibireka ai uko dushizemwo 0
+2. script icapa carre yanditsemwo nombre de coté hagati
+* * * * *
+*       *
+*   5   *
+*       *
+* * * * *
+
 Jour 3. Les fichiers
 --------------------
 - Expression regulières
     - https://youtu.be/UQQsYXa1EHs
 - Manipulation des fichiers
     - https://youtu.be/7U2RUtWz5Mo
+
+Exercice:
+script itora fichier irimwo text igatanga iyindi fichier ariko ahari amajambo y'idome 5 iyasubira ari hagari y'utunyenyeri
+siko vyari vyifashe => siko * vyari * vyifashe
 
 Jour 4. Les fichiers
 --------------------
@@ -32,6 +48,19 @@ Jour 4. Les fichiers
     - https://youtu.be/TZkIud0u2C4
 - [OPTIONNEL] logging
     - https://youtu.be/NRLSyyYv2N0
+
+Exercice:
+1. kora ama scripts akora ivyo
+    - crea ama fichier 20: 1.txt, 2.txt,....
+    - ayari pair yahindure extension abe .csv
+    - ayari divisible par 3 yahe extexion .json
+    - ayari < 10 yarenomme agire 0 kuntango 01.txt, 02.txt
+    - ayari < 5 yahanagure
+    - fichier ya 20 yandikemwo "OK NAHEJEJE"
+
+2. script ifata fichier igatanga iyindi fihier ahari date hose ikahasubiriza imisi iba isigaye kugira ukwezi guhere
+ex: 
+15/04/2019 des flammes stylisées, rouge et or. =>  15e jours avant la fin de 04 2019 des flammes stylisées, rouge et or.
 
 Jour 5. La Performance
 ----------------------
