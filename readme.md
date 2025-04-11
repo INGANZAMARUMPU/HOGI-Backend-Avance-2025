@@ -70,8 +70,8 @@ Akarorero:
 
 Jour 5. Exercices
 -----------------
-[les boucles et les conditions](./renforcement_boucles.html)
-[les regexes et les fichiers](./renforcement_regex.html)
+- [les boucles et les conditions](https://html-preview.github.io/?url=https://github.com/INGANZAMARUMPU/HOGI-Backend-Avance-2025/blob/main/renforcement_boucles.html)
+- [les regexes et les fichiers](https://html-preview.github.io/?url=https://github.com/INGANZAMARUMPU/HOGI-Backend-Avance-2025/blob/main/renforcement_regex.html)
 
 Jour 6. La Performance
 ----------------------
