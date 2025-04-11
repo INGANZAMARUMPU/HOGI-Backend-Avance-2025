@@ -21,6 +21,8 @@ ikidandazwa kirangwa na
 - igiciro
 - igitigiri
 
+Kirazira ko ikidandazwa kibamwo kabiri vyaba biciye mu kugishiramwo canke kugihindura izina.
+
 mu kudandaza dushiramwo
 -----------------------
 - id

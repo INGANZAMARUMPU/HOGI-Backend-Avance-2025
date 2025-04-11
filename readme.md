@@ -10,7 +10,7 @@ Jour 1. Programmation Avancée avec Python
     - https://youtu.be/t1EZcWaFyeg
 
 Exercice:
-    replace sans replace
+Gukora fonctions isubiriza ijambo riri muri phrase idakoresheje fonction native replace()
 
 Jour 2. Manipulation avancée des données
 ----------------------------------------
@@ -20,7 +20,7 @@ Jour 2. Manipulation avancée des données
     - https://youtu.be/9saytqA0J9A
 
 Exercice:
-1. script iguma ikora table de multiplication ibireka ai uko dushizemwo 0
+1. script iguma ikora table de multiplication ibireka ari uko dushizemwo 0
 2. script icapa carre yanditsemwo nombre de coté hagati
 ```
 * * * * *
@@ -38,8 +38,10 @@ Jour 3. Les fichiers
     - https://youtu.be/7U2RUtWz5Mo
 
 Exercice:
-script itora fichier irimwo text igatanga iyindi fichier ariko ahari amajambo y'idome 5 iyasubira ari hagari y'utunyenyeri
-siko vyari vyifashe => siko * vyari * vyifashe
+Script itora fichier irimwo text igatanga iyindi fichier ariko ahari amajambo y'idome 5 iyasubira ari hagari y'utunyenyeri.
+
+Akarorero:
+Siko vyari vyifashe => siko * vyari * vyifashe
 
 Jour 4. Les fichiers
 --------------------
@@ -62,7 +64,8 @@ Exercice:
 
 2. script ifata fichier igatanga iyindi fihier ahari date hose ikahasubiriza imisi iba isigaye kugira ukwezi guhere
 
-Akarorero: 
+Akarorero:
+
 15/04/2019 des flammes stylisées, rouge et or. =>  15e jours avant la fin de 04 2019 des flammes stylisées, rouge et or.
 
 Jour 5. La Performance
@@ -74,9 +77,8 @@ Jour 5. La Performance
     - https://youtu.be/Zse3Zh6KqCc
 - Le caching `functools.lru_cache()`
     - https://youtu.be/W6b6J1svbj8
-- [OPTIONNEL] la gestion avancée de memoire `gc` et `__slots__`
-    - https://youtu.be/pVGujarYk9w
-    - https://youtu.be/RtnzfYezHjo
+- Les closures.
+    - https://youtu.be/oE0wFA13c2o
 
 Jour 6. Programmation Orientée Objet
 ------------------------------------
@@ -89,11 +91,11 @@ Jour 6. Programmation Orientée Objet
 
 Jour 7. Programmation Fonctionnelle
 -----------------------------------
-- Les closures.
-    - https://youtu.be/oE0wFA13c2o
 - Les décorateurs.
     - https://youtu.be/hcBhtCo07EQ
-
+- [OPTIONNEL] la gestion avancée de memoire `gc` et `__slots__`
+    - https://youtu.be/pVGujarYk9w
+    - https://youtu.be/RtnzfYezHjo
 
 Phase 2 : Maîtriser Django Rest Framework
 =========================================
