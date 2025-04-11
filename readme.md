@@ -68,7 +68,12 @@ Akarorero:
 
 15/04/2019 des flammes stylisées, rouge et or. =>  15e jours avant la fin de 04 2019 des flammes stylisées, rouge et or.
 
-Jour 5. La Performance
+Jour 5. Exercices
+-----------------
+[les boucles et les conditions](./renforcement_boucles.html)
+[les regexes et les fichiers](./renforcement_regex.html)
+
+Jour 6. La Performance
 ----------------------
 - Comprehensions et expressions Lambda (`map`, `filter`, `reduce`)
     - https://youtu.be/HQNiSfb795A
@@ -77,10 +82,8 @@ Jour 5. La Performance
     - https://youtu.be/Zse3Zh6KqCc
 - Le caching `functools.lru_cache()`
     - https://youtu.be/W6b6J1svbj8
-- Les closures.
-    - https://youtu.be/oE0wFA13c2o
 
-Jour 6. Programmation Orientée Objet
+Jour 7. Programmation Orientée Objet
 ------------------------------------
 - `héritage multiple`, `encapsulation`, `polymorphisme`.
     - https://youtu.be/_8MS8jq23-g
@@ -89,8 +92,10 @@ Jour 6. Programmation Orientée Objet
 - Attributs et méthodes statiques
     - https://youtu.be/45R-gynfbnw
 
-Jour 7. Programmation Fonctionnelle
+Jour 8. Programmation Fonctionnelle
 -----------------------------------
+- Les closures.
+    - https://youtu.be/oE0wFA13c2o
 - Les décorateurs.
     - https://youtu.be/hcBhtCo07EQ
 - [OPTIONNEL] la gestion avancée de memoire `gc` et `__slots__`
@@ -99,57 +104,57 @@ Jour 7. Programmation Fonctionnelle
 
 Phase 2 : Maîtriser Django Rest Framework
 =========================================
-Jour 8. Django
+Jour 9. Django
 --------------
 - Les models et les requetes
 - Django Admin
 
-Jour 9. Django
---------------
+Jour 10. Django
+---------------
 - Django Admin en profondeur:
     filtres, actions, import-export, save_model, save_queryset, has_add_permission, list_prefetch_related, autocomplete_fields...
 
-Jour 10. Django Rest Framework (DRF)
+Jour 11. Django Rest Framework (DRF)
 ------------------------------------
 - ModelViewset
 - La Pagination
 - Les Filtres
 - Les actions
 
-Jour 11. Serialization
+Jour 12. Serialization
 ---------------------
 - to_representation et les methods fields
 - Les relations complexes : `OneToMany`, `ManyToMany`.
 - [OPTIONNEL] GraphQL
 
-Jour 12. Permissions
+Jour 13. Permissions
 --------------------
 - Validation avancée des données : regex, dates avec des formats dynamiques.
 - JWT Authentication
 - Gestion des permissions basée sur des rôles `(RBAC)`
 
-Jour 13. La Securité
+Jour 14. La Securité
 --------------------
 - Protection contre les attaques : `CSRF`, `XSS` et `SQL injection`, `brute-force`, `Honeypot`
 - Limitation des Requêtes: throttling
 
-Jour 14. Les tests
+Jour 15. Les tests
 ------------------
 - Les tests avec pytest
     - https://youtube.com/playlist?list=PLP1DxoSC17LZTTzgfq0Dimkm6eWJQC9ki
 
 Phase 3 : La Performance
 ========================
-Jour 15. Performance de l'API
+Jour 16. Performance de l'API
 -----------------------------
 - Profilage et benchmarking
     - https://youtu.be/BZzb_Wpag_M
 
-Jour 16. Caching
+Jour 17. Caching
 ----------------
 - Cache et optimisation des endpoints
 
-Jour 17. Les taches
+Jour 18. Les taches
 -------------------
 - Mise en file d'attente des tâches avec Celery
     - https://youtu.be/y6FG-kKhGwA
@@ -157,12 +162,12 @@ Jour 17. Les taches
 - [OPTIONNEL] Gestionnaire de taches personnalisé:
     - https://youtu.be/FCPBG6NqMmQ
 
-Jour 18. SaaS
+Jour 19. SaaS
 -------------
 - [OPTIONNEL] Multitenancy avec django-tenants
     - https://youtu.be/uvaO85GbdzA
 
-Jour 19. Django channels
+Jour 20. Django channels
 ------------------------
 - [OPTIONNEL] Gestion des notifications et WebSockets
 

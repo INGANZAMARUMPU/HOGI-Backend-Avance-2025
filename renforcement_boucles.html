@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercices Boucles et Conditions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 6px;
+            border-radius: 5px;
+        }
+        .qcm {
+            background-color: #e9f7ef;
+        }
+    </style>
+</head>
+<body>
+    <h1>40 Exercices : Boucles et Conditions</h1>
+
+    <h2>🟢 Niveau Débutant (1-10)</h2>
+    <ul>
+        <li>1. Afficher les nombres de 1 à 10</li>
+        <li>2. Afficher les nombres pairs de 0 à 20</li>
+        <li>3. Demander un nombre à l’utilisateur et afficher s’il est pair ou impair</li>
+        <li>4. Afficher la table de multiplication de 5</li>
+        <li>5. Calculer la somme des entiers de 1 à N (N donné par l’utilisateur)</li>
+        <li class="qcm">6. QCM : Quelle est la sortie de ce code ?<br>
+            <pre>for i in range(3):<br>    print(i)</pre>
+            A) 0 1 2<br>B) 1 2 3<br>C) 0 1 2 3<br>D) Erreur
+        </li>
+        <li>7. Demander l’âge de l’utilisateur et afficher s’il est majeur ou mineur</li>
+        <li class="qcm">8. QCM : Quel mot-clé termine une condition en Python ?<br>
+            A) if<br>B) endif<br>C) then<br>D) else
+        </li>
+        <li>9. Afficher les nombres de 10 à 1 (compte à rebours)</li>
+        <li>10. Trouver le plus grand de trois nombres donnés par l’utilisateur</li>
+    </ul>
+
+    <h2>🟡 Niveau Intermédiaire (11-25)</h2>
+    <ul>
+        <li>11. Afficher les 10 premiers termes de la suite de Fibonacci</li>
+        <li>12. Demander à l’utilisateur un mot de passe jusqu’à ce qu’il soit correct</li>
+        <li>13. Afficher tous les diviseurs d’un nombre donné</li>
+        <li>14. Vérifier si un nombre est premier</li>
+        <li class="qcm">15. QCM : Quelle boucle est mieux adaptée quand on ne connaît pas à l’avance le nombre d’itérations ?<br>
+            A) for<br>B) while<br>C) do-while<br>D) switch
+        </li>
+        <li>16. Calculer la factorielle d’un nombre</li>
+        <li class="qcm">17. QCM : Que retourne <code>if 0:</code> en Python ?<br>
+            A) True<br>B) False<br>C) Erreur<br>D) None
+        </li>
+        <li>18. Compter le nombre de voyelles dans une phrase</li>
+        <li>19. Inverser une chaîne de caractères sans utiliser <code>[::-1]</code></li>
+        <li class="qcm">20. QCM : Qu'affiche ce code ?<br>
+            <pre>for i in range(5):<br>    if i == 3:<br>        break<br>    print(i)</pre>
+            A) 0 1 2 3<br>B) 0 1 2<br>C) 1 2 3<br>D) 0 1 2 3 4
+        </li>
+        <li>21. Dessiner un carré d’étoiles avec des boucles imbriquées</li>
+        <li>22. Afficher un triangle d’étoiles de taille N</li>
+        <li>23. Créer une mini-calculatrice (add, sub, mul, div)</li>
+        <li class="qcm">24. QCM : Dans quel cas utilise-t-on <code>continue</code> ?<br>
+            A) Pour sortir d’une boucle<br>B) Pour ignorer l’itération en cours<br>C) Pour relancer la boucle<br>D) Pour tester une condition
+        </li>
+        <li>25. Deviner un nombre secret entre 1 et 100 (avec while)</li>
+    </ul>
+
+    <h2>🔴 Niveau Avancé (26-40)</h2>
+    <ul>
+        <li>26. Écrire un programme qui vérifie si un mot est un palindrome</li>
+        <li>27. Trouver tous les nombres parfaits entre 1 et 1000</li>
+        <li class="qcm">28. QCM : Que fait ce code ?<br>
+            <pre>for i in range(1, 6):<br>    for j in range(i):<br>        print(j, end="")<br>    print()</pre>
+            A) Affiche un triangle<br>B) Affiche une pyramide<br>C) Erreur<br>D) Affiche 12345
+        </li>
+        <li>29. Créer un générateur de mot de passe aléatoire (boucles + conditions)</li>
+        <li>30. Compter les mots dans une phrase sans <code>split()</code></li>
+        <li>31. Créer une horloge numérique (HH:MM:SS) avec une boucle infinie</li>
+        <li class="qcm">32. QCM : Quelle est la sortie ?<br>
+            <pre>x = 3<br>while x &lt; 5:<br>    print(x)<br>    x += 2</pre>
+            A) 3 4<br>B) 3<br>C) 3 5<br>D) 3 5 7
+        </li>
+        <li>33. Créer un mini-jeu "Pierre, Feuille, Ciseaux"</li>
+        <li>34. Simuler une caisse automatique (scanner des articles, totaliser)</li>
+        <li class="qcm">35. QCM : Quelle est la sortie ?<br>
+            <pre>for i in range(2):<br>    for j in range(2):<br>        print(i + j, end=" ")</pre>
+            A) 0 1 1 2<br>B) 0 1 2 3<br>C) 0 1 2<br>D) 1 2 3
+        </li>
+        <li>36. Créer un programme de conversion Celsius ↔ Fahrenheit en boucle</li>
+        <li>37. Créer un validateur de mot de passe (longueur, chiffres, majuscules)</li>
+        <li class="qcm">38. QCM : Quel résultat pour <code>if "a" in "apple"</code> ?<br>
+            A) True<br>B) False<br>C) Erreur<br>D) None
+        </li>
+        <li>39. Créer un menu interactif en boucle avec plusieurs options (1. Ajouter, 2. Supprimer, 3. Quitter)</li>
+        <li>40. Simuler une partie de "Juste Prix" avec des indices (trop haut, trop bas)</li>
+    </ul>
+
+</body>
+</html>

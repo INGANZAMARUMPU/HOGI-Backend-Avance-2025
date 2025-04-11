@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercices : Regex, Dates et Montants BIF en Python</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      color: #007acc;
+    }
+    h2 {
+      margin-top: 2rem;
+      color: #005a8d;
+    }
+    pre {
+      background-color: #efefef;
+      padding: 1rem;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    code {
+      font-family: Consolas, monospace;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🧪 Exercices : Manipulation de fichiers avec Regex (Dates & BIF)</h1>
+
+  <h2>🔸 Exercice 1 : Extraire les dates d’un fichier texte</h2>
+  <p><strong>Fichier :</strong> <code>donnees1.txt</code></p>
+  <pre><code>
+Le contrat commence le 12/04/2024 et se termine le 2024-10-30. Une autre date possible : 01-01-2025.
+  </code></pre>
+  <p><strong>Objectif :</strong> Extraire toutes les dates possibles et les écrire dans <code>dates_extraites.txt</code>.</p>
+
+  <h2>🔸 Exercice 2 : Trouver et compter les montants en BIF</h2>
+  <p><strong>Fichier :</strong> <code>donnees2.txt</code></p>
+  <pre><code>
+Le loyer est de 250 000 BIF. L’achat du véhicule a coûté 1.000.000BIF. Un autre paiement : 5000 BIF.
+  </code></pre>
+  <p><strong>Objectif :</strong> Extraire tous les montants BIF et afficher leur nombre et leur valeur.</p>
+
+  <h2>🔸 Exercice 3 : Remplacer les montants BIF par un format standard</h2>
+  <p><strong>Fichier :</strong> <code>donnees3.txt</code></p>
+  <pre><code>
+Paiement : 50 USD. Autre : 100USD. Encore un : 4.3USD.
+  </code></pre>
+  <p><strong>Objectif :</strong> Reconvertir tous les montants en <code>xxx xxx BIF</code> et écrire le texte modifié dans <code>donnees3_formatte.txt</code>. Le separateur de milliers est "l'espace" le taux est 3 945</p>
+
+  <h2>🔸 Exercice 4 : Extraire les lignes contenant une date ou un montant</h2>
+  <p><strong>Fichier :</strong> <code>donnees4.txt</code></p>
+  <pre><code>
+Facture émise le 01/02/2023.
+Montant payé : 100000 BIF.
+Rien à signaler ici.
+Prochaine échéance : 2024-05-20.
+  </code></pre>
+  <p><strong>Objectif :</strong> Extraire les lignes contenant une date ou un montant BIF et les copier dans <code>lignes_utiles.txt</code>.</p>
+
+  <h2>🔸 Exercice 5 : Calculer la somme totale des montants BIF</h2>
+  <p><strong>Fichier :</strong> <code>donnees5.txt</code></p>
+  <pre><code>
+Achat : 500.000BIF
+Transport : 100000 BIF
+Autres frais : 75 000 BIF
+  </code></pre>
+  <p><strong>Objectif :</strong> Extraire les montants, les convertir en entier, puis afficher le total : <code>Total = 675 000 BIF</code></p>
+
+</body>
+</html>
