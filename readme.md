@@ -120,6 +120,31 @@ Jour 11. Django Rest Framework (DRF)
 - La Pagination
 - Les Filtres
 - Les actions
+```python
+@transaction.atomic
+def destroy(self, request, *args, **kwargs):
+    instance = self.get_object()
+    for item in instance.factureitem_set.all():
+        item.produit.quantite += item.quantite
+        item.produit.save()
+    instance.delete()
+    return Response({"message": "Facture supprimée et produit ajusté"}, 200)
+
+@transaction.atomic
+@action(detail=False, methods=['POST'], serializer_class = MontantSerializer)
+def augmenter(self, request):
+    factures = self.get_queryset()
+    serializer = self.get_serializer(data=request.data)
+    serializer.is_valid(raise_exception=True)
+    data = serializer.validated_data
+    for facture in factures:
+        facture.total = models.F('total') + data['montant']
+        facture.save()
+
+    factures = self.get_queryset()
+    serializer = FactureSerializer(factures, many=True)
+    return Response(serializer.data, 200)
+```
 
 Jour 12. Serialization
 ---------------------
